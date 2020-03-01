@@ -1,0 +1,73 @@
+.box {
+	
+	background-color: black;
+	font-family: Inconsolata;
+	color:white;
+
+	margin: 15px;
+	border-radius: 0px;
+	box-shadow: 5px 5px white;
+	flex-grow: 1;
+	
+}
+
+.turtle-square {
+	height: 300px;
+	min-width: 300px;
+}
+
+#container {
+	width: 80%;
+	margin: auto;
+}
+
+#turtlecontainer {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+#canvasholder {
+	display: flex;
+	flex-direction: column;
+}
+
+button {
+	background-color: black; /* Green */
+	border: none;
+	border-radius: 0px;
+	color: white;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	font-family: Inconsolata;
+	font-size: 16px;
+	transition-duration: 0.1s;
+}
+
+button:hover {
+	background-color: darkslategray;
+}
+
+button:active {
+	box-shadow: 2px 2px lightgrey;
+	transform: translate(2px, 2px);
+}
+
+
+
+h1 {
+	color: white;
+	padding: 30px 30px;
+}
+
+
+
+body {
+	background-image: url("images/pixelnight.png");
+	background-size: auto;
+	
+
+	font-family: Inconsolata;
+
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Turtle</title>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+		<script src="turtle/turtle.js"></script>
+		
+	</head>
+	<body>
+		<div id="container">
+			<h1 class="box">Turtle - <span> A simple JavaScript Logo Interpreter!</span></h1>
+			<div id="turtlecontainer">
+				<div id="canvasholder">
+					<div>
+						<canvas id="turtlecanvas" class="box turtle-square" width="300" height="300" style="background-color:white;"></canvas>
+					</div>
+					<div>
+						<button class="box" type="button" onclick="turtleStart()">Update</button>
+					</div>
+					
+				</div>
+				<textarea  class="box turtle-square" name="turtlecode" id="turtlecode">
+GOTO 75 120
+LOOP 5
+FORWARD 150
+TURN 144
+END LOOP</textarea>
+			</div>
+		</div>
+
+
+	</body>
+</html>
